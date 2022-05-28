@@ -1,0 +1,28 @@
+[
+{
+    "model": "NFT.collection",
+    "pk": "61b9fb17-3dcf-4d33-a180-6c40b9c3147d",
+    "fields": {
+        "created": "2022-05-28T13:49:09.229Z",
+        "modified": "2022-05-28T13:49:09.229Z",
+        "creator": "0f9fe657-9aa0-4149-978e-03ef917b6cbd",
+        "name": "NFT Collection",
+        "description": "New",
+        "is_public": true,
+        "creator_network": null
+    }
+},
+{
+    "model": "NFT.collection",
+    "pk": "4b5bd02d-5b84-41d2-b87e-2dfbe1aed3ed",
+    "fields": {
+        "created": "2022-05-28T13:49:09.229Z",
+        "modified": "2022-05-28T13:49:09.229Z",
+        "creator": "0f9fe657-9aa0-4149-978e-03ef917b6cbd",
+        "name": "Bored APE",
+        "description": "New",
+        "is_public": true,
+        "creator_network": null
+    }
+}
+]

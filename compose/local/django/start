@@ -6,6 +6,7 @@ set -o nounset
 
 
 python manage.py migrate
-# python manage.py loaddata eterlast/NFT/fixtures/collection.json --app NFT
-# python manage.py loaddata eterlast/NFT/fixtures/NFT.json --app NFT
+python manage.py loaddata eterlast/NFT/fixtures/collection.json --app NFT.Collection
+python manage.py loaddata eterlast/NFT/fixtures/NFT.json --app NFT.NFT
+python manage.py loaddata eterlast/users/fixtures/user.json --app users.User
 python manage.py runserver_plus 0.0.0.0:8000

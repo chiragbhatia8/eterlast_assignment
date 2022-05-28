@@ -1,0 +1,88 @@
+
+[
+{
+    "model": "NFT.nft",
+    "pk": "48e509f5-c414-4780-a573-b7f1c0269d81",
+    "fields": {
+        "created": "2022-05-28T13:43:28.693Z",
+        "modified": "2022-05-28T13:43:28.693Z",
+        "name": "C85506B4AC7D0136",
+        "description": "New NFT",
+        "picture": "nfts/Screenshot_2022-05-28_at_7.12.59_PM.png",
+        "external_link": "",
+        "collection": null,
+        "supply": 0,
+        "royalties": "0.00",
+        "buyer": null,
+        "asset_id": "C85506B4AC7D0136"
+    }
+},
+{
+    "model": "NFT.nft",
+    "pk": "99871b2b-5d3c-4e1f-9d99-17fedccaad90",
+    "fields": {
+        "created": "2022-05-28T13:43:28.693Z",
+        "modified": "2022-05-28T13:43:28.693Z",
+        "name": "C85506B4AC7D0136",
+        "description": "New NFT",
+        "picture": "nfts/Screenshot_2022-05-28_at_7.12.59_PM.png",
+        "external_link": "",
+        "collection": null,
+        "supply": 0,
+        "royalties": "0.00",
+        "buyer": null,
+        "asset_id": "C85506B4AC7D0136"
+    }
+},
+{
+    "model": "NFT.nft",
+    "pk": "2e23a4fe-e51e-4c50-afce-c9796daa2ca9",
+    "fields": {
+        "created": "2022-05-28T13:43:28.693Z",
+        "modified": "2022-05-28T13:43:28.693Z",
+        "name": "C85506B4AC7D0136",
+        "description": "New NFT",
+        "picture": "nfts/Screenshot_2022-05-28_at_7.12.59_PM.png",
+        "external_link": "",
+        "collection": null,
+        "supply": 0,
+        "royalties": "0.00",
+        "buyer": null,
+        "asset_id": "C85506B4AC7D0136"
+    }
+},
+{
+    "model": "NFT.nft",
+    "pk": "73607562-c54d-4f95-bdc7-5fc71125139e",
+    "fields": {
+        "created": "2022-05-28T13:43:28.693Z",
+        "modified": "2022-05-28T13:43:28.693Z",
+        "name": "C85506B4AC7D0136",
+        "description": "New NFT",
+        "picture": "nfts/Screenshot_2022-05-28_at_7.12.59_PM.png",
+        "external_link": "",
+        "collection": null,
+        "supply": 0,
+        "royalties": "0.00",
+        "buyer": null,
+        "asset_id": "C85506B4AC7D0136"
+    }
+},
+{
+    "model": "NFT.nft",
+    "pk": "467e3f90-1b73-49e6-b084-ec40b6c9a308",
+    "fields": {
+        "created": "2022-05-28T13:53:08.513Z",
+        "modified": "2022-05-28T13:53:08.513Z",
+        "name": "C85506B4AC7D0136",
+        "description": "New NFT",
+        "picture": "nfts/Screenshot_2022-05-28_at_7.12.59_PM_reBFU3C.png",
+        "external_link": "",
+        "collection": "61b9fb17-3dcf-4d33-a180-6c40b9c3147d",
+        "supply": 0,
+        "royalties": "0.00",
+        "buyer": null,
+        "asset_id": "C85506B4AC7D0136"
+    }
+}
+]
