@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=eterlast
+POSTGRES_USER=MmfwoOJodRPvKjpiDdmKAofldQPSTdTI
+POSTGRES_PASSWORD=4dGid0cfQKT6aJgjOqJ7IuHNTgNoi1BzEco29RpHAdqJXOtqHs7okKoY3QxY9FO9

@@ -1,0 +1,608 @@
+{
+	"info": {
+		"_postman_id": "c7e5fa2a-f7ae-421c-8eed-ded4c914f0c3",
+		"name": "eterlast",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10438264"
+	},
+	"item": [
+		{
+			"name": "collection",
+			"item": [
+				{
+					"name": "List all collections",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/nft-api/v1/collection/all",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "8000",
+							"path": [
+								"nft-api",
+								"v1",
+								"collection",
+								"all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "List all collections",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://0.0.0.0:8000/nft-api/v1/collection/all",
+									"protocol": "http",
+									"host": [
+										"0",
+										"0",
+										"0",
+										"0"
+									],
+									"port": "8000",
+									"path": [
+										"nft-api",
+										"v1",
+										"collection",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Accept-Language, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "DJDT-STORE-ID",
+									"value": "610a1c05e9dd432b8c9ee19d854a79fb"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=1770.855000000001;desc=\"User CPU time\", TimerPanel_stime;dur=71.272;desc=\"System CPU time\", TimerPanel_total;dur=1842.1270000000009;desc=\"Total CPU time\", TimerPanel_total_time;dur=1772.1498012542725;desc=\"Elapsed time\", SQLPanel_sql_time;dur=2.5322437286376953;desc=\"SQL 1 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "131"
+								},
+								{
+									"key": "Content-Language",
+									"value": "en"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Server",
+									"value": "Werkzeug/2.0.3 Python/3.9.13"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 28 May 2022 13:52:57 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"61b9fb17-3dcf-4d33-a180-6c40b9c3147d\",\n        \"name\": \"New Collection\",\n        \"description\": \"New\",\n        \"is_public\": true,\n        \"creator_network\": null\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Create a collection",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Bored Ape",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "New APes in the town",
+									"type": "text"
+								},
+								{
+									"key": "is_public",
+									"value": "False",
+									"type": "text"
+								},
+								{
+									"key": "creator_network",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://0.0.0.0:8000/nft-api/v1/collection/",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "8000",
+							"path": [
+								"nft-api",
+								"v1",
+								"collection",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "List all collections",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://0.0.0.0:8000/nft-api/v1/collection/all",
+									"protocol": "http",
+									"host": [
+										"0",
+										"0",
+										"0",
+										"0"
+									],
+									"port": "8000",
+									"path": [
+										"nft-api",
+										"v1",
+										"collection",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Accept-Language, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "DJDT-STORE-ID",
+									"value": "610a1c05e9dd432b8c9ee19d854a79fb"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=1770.855000000001;desc=\"User CPU time\", TimerPanel_stime;dur=71.272;desc=\"System CPU time\", TimerPanel_total;dur=1842.1270000000009;desc=\"Total CPU time\", TimerPanel_total_time;dur=1772.1498012542725;desc=\"Elapsed time\", SQLPanel_sql_time;dur=2.5322437286376953;desc=\"SQL 1 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "131"
+								},
+								{
+									"key": "Content-Language",
+									"value": "en"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Server",
+									"value": "Werkzeug/2.0.3 Python/3.9.13"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 28 May 2022 13:52:57 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"61b9fb17-3dcf-4d33-a180-6c40b9c3147d\",\n        \"name\": \"New Collection\",\n        \"description\": \"New\",\n        \"is_public\": true,\n        \"creator_network\": null\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Retrieve a collection",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Bored Ape",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "New APes in the town",
+									"type": "text"
+								},
+								{
+									"key": "is_public",
+									"value": "False",
+									"type": "text"
+								},
+								{
+									"key": "creator_network",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://0.0.0.0:8000/nft-api/v1/collection/9165e16b-7f85-48a1-bf4c-b6a1b57d71cd/",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "8000",
+							"path": [
+								"nft-api",
+								"v1",
+								"collection",
+								"9165e16b-7f85-48a1-bf4c-b6a1b57d71cd",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "List all collections",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://0.0.0.0:8000/nft-api/v1/collection/all",
+									"protocol": "http",
+									"host": [
+										"0",
+										"0",
+										"0",
+										"0"
+									],
+									"port": "8000",
+									"path": [
+										"nft-api",
+										"v1",
+										"collection",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Accept-Language, Cookie"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "DJDT-STORE-ID",
+									"value": "610a1c05e9dd432b8c9ee19d854a79fb"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=1770.855000000001;desc=\"User CPU time\", TimerPanel_stime;dur=71.272;desc=\"System CPU time\", TimerPanel_total;dur=1842.1270000000009;desc=\"Total CPU time\", TimerPanel_total_time;dur=1772.1498012542725;desc=\"Elapsed time\", SQLPanel_sql_time;dur=2.5322437286376953;desc=\"SQL 1 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "131"
+								},
+								{
+									"key": "Content-Language",
+									"value": "en"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Server",
+									"value": "Werkzeug/2.0.3 Python/3.9.13"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 28 May 2022 13:52:57 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"61b9fb17-3dcf-4d33-a180-6c40b9c3147d\",\n        \"name\": \"New Collection\",\n        \"description\": \"New\",\n        \"is_public\": true,\n        \"creator_network\": null\n    }\n]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Create a new NFT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "C85506B4AC7D0136",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "New NFT",
+							"type": "text"
+						},
+						{
+							"key": "picture",
+							"type": "file",
+							"src": "/Users/chiragbhatia/Desktop/Screenshot 2022-05-28 at 7.12.59 PM.png"
+						},
+						{
+							"key": "external_link",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "collection",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "supply",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "royalties",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "asset_id",
+							"value": "C85506B4AC7D0136",
+							"type": "text"
+						},
+						{
+							"key": "buyer",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://0.0.0.0:8000/nft-api/v1/mint/",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"nft-api",
+						"v1",
+						"mint",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve a NFT",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Bored Ape",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "New APes in the town",
+							"type": "text"
+						},
+						{
+							"key": "is_public",
+							"value": "False",
+							"type": "text"
+						},
+						{
+							"key": "creator_network",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://0.0.0.0:8000/nft-api/v1/NFT/9165e16b-7f85-48a1-bf4c-b6a1b57d71cd",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"nft-api",
+						"v1",
+						"NFT",
+						"9165e16b-7f85-48a1-bf4c-b6a1b57d71cd"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "List all collections",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/nft-api/v1/collection/all",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "8000",
+							"path": [
+								"nft-api",
+								"v1",
+								"collection",
+								"all"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Accept-Language, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "DJDT-STORE-ID",
+							"value": "610a1c05e9dd432b8c9ee19d854a79fb"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "TimerPanel_utime;dur=1770.855000000001;desc=\"User CPU time\", TimerPanel_stime;dur=71.272;desc=\"System CPU time\", TimerPanel_total;dur=1842.1270000000009;desc=\"Total CPU time\", TimerPanel_total_time;dur=1772.1498012542725;desc=\"Elapsed time\", SQLPanel_sql_time;dur=2.5322437286376953;desc=\"SQL 1 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "131"
+						},
+						{
+							"key": "Content-Language",
+							"value": "en"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.0.3 Python/3.9.13"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 28 May 2022 13:52:57 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"61b9fb17-3dcf-4d33-a180-6c40b9c3147d\",\n        \"name\": \"New Collection\",\n        \"description\": \"New\",\n        \"is_public\": true,\n        \"creator_network\": null\n    }\n]"
+				}
+			]
+		}
+	]
+}
