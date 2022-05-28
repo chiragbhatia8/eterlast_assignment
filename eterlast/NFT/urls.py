@@ -14,7 +14,7 @@ urlpatterns = [
         NFTViewSet.as_view({"get": "retrieve_nft"}),
     ),
     path(
-        "NFT/all",
+        "NFTs",
         NFTViewSet.as_view({"get": "list_nfts"}),
     ),
     path(

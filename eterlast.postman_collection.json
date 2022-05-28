@@ -603,6 +603,58 @@
 					"body": "[\n    {\n        \"id\": \"61b9fb17-3dcf-4d33-a180-6c40b9c3147d\",\n        \"name\": \"New Collection\",\n        \"description\": \"New\",\n        \"is_public\": true,\n        \"creator_network\": null\n    }\n]"
 				}
 			]
+		},
+		{
+			"name": "List NFTs",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Bored Ape",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "New APes in the town",
+							"type": "text"
+						},
+						{
+							"key": "is_public",
+							"value": "False",
+							"type": "text"
+						},
+						{
+							"key": "creator_network",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://0.0.0.0:8000/nft-api/v1/NFTs",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"nft-api",
+						"v1",
+						"NFTs"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
